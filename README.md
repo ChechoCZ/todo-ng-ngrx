@@ -1,27 +1,22 @@
-# TodoAngular
+# To Do App - Angular / NgRx
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+This app is intended to practice the main concepts of Flux Architecture using NgRx. You are able to add as many To Dos as You want and mark them as completed as well. In the footer there is a counter for the total tasks and the done tasks.
 
-## Development server
+### Tools used
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- angular-cli
+- NgRx
 
-## Code scaffolding
+### Run
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Clone this repo, cd into the project folder and run the command:
 
-## Build
+```
+npm install
+```
+This will install all the dependencies required. Then run the command:
+```
+ng serve
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The application will be available in http://localhost:4200
